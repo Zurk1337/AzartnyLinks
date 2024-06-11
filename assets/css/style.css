@@ -1,0 +1,149 @@
+body {
+    overflow-x: hidden;
+}
+
+.gambling-age {
+    width: 40px;
+    height: 40px;
+}
+
+.banner {
+    width: 900px;
+}
+
+.banner:hover, .tg-button:hover, .twitch-button:hover, .kick-button:hover  {
+    transform:scale(1.025);
+    filter: brightness(110%); 
+}
+
+.tg-logo {
+    width: 200px;
+    min-width: 100px;
+}
+
+.header-button {
+    margin-top: 5%;
+    border-radius: 50px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    color: white;
+    font-family: "Onest", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 900;
+    font-style: normal;
+    font-size: 30px;
+}
+
+.tg-button {
+    box-shadow: 0 20px 30px -6px rgba(30,161,255,0.5);
+}
+
+.twitch-button {
+    margin-top: 2.5% !important;
+    background-image: linear-gradient( 135deg, #9046ff 0%, #7e29fe 100%);
+    box-shadow: 0 20px 30px -6px #9046ffd7;
+}
+
+.kick-button {
+    margin-top: 2.5% !important;
+    background-image: linear-gradient( 135deg, #42d40f 0%, #42ff00a6 100%);
+    box-shadow: 0 20px 30px -6px #42ff00b8;
+    margin-bottom: 5%;
+}
+
+.telegram_icon {
+    background: url('data:image/svg+xml,%3Csvg%20height%3D%2224%22%20viewBox%3D%220%200%2024%2024%22%20width%3D%2224%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3Cpath%20d%3D%22m1.95617055%2011.392196c5.77764656-2.42328736%209.63031585-4.02086673%2011.55800785-4.79273807%205.5039525-2.20384954%206.6476266-2.5866818%207.3930574-2.59932314.1639507-.00278035.5305319.0363352.7679878.22182361.2005031.15662277.2556695.36819788.2820684.51669348.026399.1484956.0592719.48677234.0331404.75109194-.2982611%203.0169019-1.5888322%2010.33812718-2.2454015%2013.71710898-.2778191%201.4297738-.8288514%201.7357846-1.3584441%201.7826999-1.1509274.1019576-2.0208916-.5588425-3.1356211-1.2622918-1.7443316-1.1007592-2.3854935-1.3972358-4.0786694-2.4713734-1.95675765-1.2413519-.8891962-1.8911034.2259543-3.0061212.2918402-.2918054%205.3989024-4.83750096%205.497052-5.24030969.0122753-.05037796-.1557336-.55407742-.2716182-.65323489-.1158847-.09915747-.2869204-.06524947-.4103446-.03828214-.17495.03822537-2.9615423%201.81132342-8.35977698%205.31929412-.79096496.5228681-1.50739646.7776269-2.1492945.7642766-.70764107-.0147176-2.06885864-.3851791-3.08078398-.7018404-1.24116762-.388398-1.69932554-.5713149-1.61342745-1.2309348.04474105-.3435709.36011227-.7024173.94611366-1.0765391z%22%20fill%3D%22%23fff%22%20fill-rule%3D%22evenodd%22%2F%3E%3C%2Fsvg%3E') no-repeat 0 -1px;
+    display: inline-block;
+    width: 24px;
+    height: 22px;
+    margin-right: 10px;
+}
+
+.twitch_icon {
+    background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='25' height='25' fill='white' class='bi bi-twitch' viewBox='0 0 16 16'%3E%3Cpath d='M3.857 0 1 2.857v10.286h3.429V16l2.857-2.857H9.57L14.714 8V0H3.857zm9.714 7.429-2.285 2.285H9l-2 2v-2H4.429V1.143h9.142v6.286z'/%3E%3Cpath d='M11.857 3.143h-1.143V6.57h1.143V3.143zm-3.143 0H7.571V6.57h1.143V3.143z'/%3E%3C/svg%3E") no-repeat 0 -1px;
+    display: inline-block;
+    width: 34px;
+    height: 25px;
+    margin: 0 6px -4px 5px;
+}
+
+.kick_icon {
+    background: url("data:image/svg+xml,%3Csvg width='25' height='25' viewBox='0 0 300 300' xmlns='http://www.w3.org/2000/svg'%3E%3Cg%3E%3Cg%3E%3Cpath d='M0 0H100V66.6667H133.333V33.3333H166.667V0H266.667V100H233.333V133.333H200V166.667H233.333V200H266.667V300H166.667V266.667H133.333V233.333H100V300H0V0Z3333H433.333V266.667H466.667V300H533.333H633.333V200H533.333V100H633.333V0H533.333Z' fill='white'/%3E%3C/g%3E%3C/g%3E%3Cdefs%3E%3CclipPath id='clip0_9790_492437'%3E%3Crect width='933' height='300' fill='white'/%3E%3C/clipPath%3E%3CclipPath id='clip1_9790_492437'%3E%3Crect width='933.333' height='300' fill='white'/%3E%3C/clipPath%3E%3C/defs%3E%3C/svg%3E") no-repeat 0 -1px;
+    display: inline-block;
+    width: 22px;
+    height: 24px;
+    margin: 0 13px;
+}
+
+.tg-button:hover, .twitch-button:hover, .kick-button:hover, .b-button:active, .b-button:focus {
+    color: #fff !important;
+    text-decoration: none;
+    opacity: 95%;
+    outline: 0;
+}
+
+/* .loading-container {
+    background-color: rgba(0, 0, 0, 0.821);
+    position: fixed;
+    z-index: 1000;
+    height: 100%;
+    width: 100%;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: ease all 4s;
+}
+.loaded {
+    display: none;
+    opacity: 0;
+}
+.loading {
+    margin: 0; height: 100%; 
+    overflow: hidden;
+    border: 2px solid rgb(255, 13, 0);
+    border-radius: 50%;
+    border-bottom: none;
+    border-left: none;
+    height: 50px;
+    width: 50px;
+    animation-name: loader;
+    animation-duration: .5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+@keyframes loader {
+    0% {
+        transform: rotate(0);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+} */
+@media (max-width: 700px) {
+    .header-button {
+        margin-top: 5%;
+        border-radius: 50px;
+        outline: none;
+        border: none;
+        cursor: pointer;
+        color: white;
+        font-family: "Onest", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 900;
+        font-style: normal;
+        font-size: 19px;
+    }
+    .telegram_icon {
+        height: 18px;  
+    }
+  }
+
+
+@import url('https://fonts.googleapis.com/css2?family=Onest:wght@900&display=swap')
+
+
